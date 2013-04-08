@@ -1,0 +1,9 @@
+<?php
+
+	$GLOBALS['cfg']['enable_feature_cooperhewitt'] = 1;
+	$GLOBALS['cfg']['cooperhewitt_api_endpoint'] = 'https://api.collection.cooperhewitt.org/rest/';
+	$GLOBALS['cfg']['cooperhewitt_grant_endpoint'] = 'https://collection.cooperhewitt.org/api/oauth2/authenticate/';
+	$GLOBALS['cfg']['cooperhewitt_token_endpoint'] = 'https://collection.cooperhewitt.org/api/oauth2/access_token/';
+	$GLOBALS['cfg']['cooperhewitt_api_key'] = '';	# https://collection.cooperhewitt.org/api/keys/register/
+
+?>

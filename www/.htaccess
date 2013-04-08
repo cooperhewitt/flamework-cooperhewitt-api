@@ -1,0 +1,2 @@
+RewriteRule ^cooperhewitt/?$				cooperhewitt.php?%{QUERY_STRING}	[L]
+RewriteRule ^cooperhewitt/auth/?$			cooperhewitt_auth.php?%{QUERY_STRING}	[L]
